@@ -4,4 +4,7 @@
 *.bin
 *.pb
 *.mapping
+*.names
+*.weights
 saved_model
+__pycache__
