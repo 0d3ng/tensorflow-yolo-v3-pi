@@ -1,0 +1,7 @@
+### PyCharm IDEA ###
+.idea
+*.xml
+*.bin
+*.pb
+*.mapping
+saved_model
