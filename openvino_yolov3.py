@@ -162,7 +162,6 @@ def main_IE_infer():
 
     args = build_argparser().parse_args()
     model_xml = args.input_model
-    print(model_xml)
     # model_xml = "lrmodels/YoloV3/FP32/frozen_yolo_v3.xml"  # <--- CPU
     # model_xml = "lrmodels/YoloV3/FP16/frozen_yolo_v3.xml" #<--- MYRIAD
     model_bin = os.path.splitext(model_xml)[0] + ".bin"
