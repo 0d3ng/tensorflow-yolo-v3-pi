@@ -9,9 +9,15 @@ Sample application openvino using YOLO V3
 * `python3 ./convert_weights.py --data_format NHWC`
 * `python3 demo.py --input_img ~/Desktop/OpenVINO-YOLO3-input.jpeg --output_img ~/Desktop/OpenVINO-YOLO3-output.jpeg --data_format NHWC`
 
-<p align="center"><img src="OpenVINO-YOLO3-input.jpeg" alt="Input Image"/></p>
+<p align="center">
+<img src="OpenVINO-YOLO3-input.jpeg" alt="Input Image"/><br>
+Input image
+</p>
 
-<p align="center"><img src="OpenVINO-YOLO3-output.jpeg" alt="Output Image"/></p>
+<p align="center">
+<img src="OpenVINO-YOLO3-output.jpeg" alt="Output Image"/><br>
+Output Image
+</p>
 
 ## Convert Model YOLO V3 to Model Inference
 In this step must openvino installed in your pc/laptop
@@ -21,7 +27,10 @@ In this step must openvino installed in your pc/laptop
 ## Running Model Inference in Raspberry Pi 3B+ using NCS2
 * `python3 openvino_yolov3.py -d MYRIAD -i frozen_darknet_yolov3_model.xml`
 
-<p align="center"><img src="OpenVINO-YOLO3-video.gif" alt="Result"/></p>
+<p align="center">
+<img src="OpenVINO-YOLO3-video.gif" alt="Result"/><br>
+Result
+</p>
 
 
 
